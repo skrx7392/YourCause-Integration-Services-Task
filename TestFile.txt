@@ -1,0 +1,4 @@
+FirstName|LastName|Email|Phone
+John|Ken|john.ken@aol.com|8522233987
+Prince|morrow|prince.morrow@yahoo.com|7576458796
+Raphael|Kent|nisi.Aenean.eget@hendreritaarcu.net|2621614288
