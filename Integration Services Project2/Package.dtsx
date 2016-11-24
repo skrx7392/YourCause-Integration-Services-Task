@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{3C66A8AC-3C0C-43E0-AD8B-C8335F3F731E}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{4FE212AB-5646-47AF-9246-BA8C99D29BD5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -454,7 +454,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[Details]</property>
+                  name="OpenRowset">[dbo].[Employee_Information]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -635,13 +635,13 @@
           Id="Package\Data Flow Task\Flat File Source"
           TopLeft="43.1,93.5" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="295.1,114.3" />
-        <NodeLayout
           Size="155.2,41.6"
           Id="Package\Data Flow Task\Data Conversion"
           TopLeft="147.2,264" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="295.1,114.3" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
           TopLeft="118.3,135.1">
